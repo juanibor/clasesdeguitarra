@@ -1110,12 +1110,13 @@ button {
 }
 
 .btn-cta-main {
-  font-size: 1.15rem;
-  padding: 1.15rem 2.5rem;
-  border-radius: 16px;
-  background: var(--accent-terracotta-gradient);
-  box-shadow: 0 10px 30px rgba(223, 109, 66, 0.5);
-}
+    font-size: 1rem;
+    padding: 1rem 1.25rem;
+    width: 100%;
+    white-space: normal;
+    line-height: 1.35;
+    text-align: center;
+  }
 
 .btn-cta-main:hover {
   background: linear-gradient(135deg, #ea835a 0%, #c4542a 100%);
