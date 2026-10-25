@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aprende Guitarra Desde Cero | Clases Personalizadas con Juani Borghetti</title>
+  
+  <!-- SEO & Social Sharing (WhatsApp / Instagram Previews) -->
+  <meta name="description" content="Clases de guitarra personalizadas 1 a 1 para principiantes de todas las edades con Juani Borghetti. Método práctico, repertorio a tu gusto y horarios flexibles." />
+  <meta property="og:title" content="Clases de Guitarra con Juani Borghetti | Aprende Desde Cero" />
+  <meta property="og:description" content="Aprende a tocar guitarra acústica o criolla desde tu primera clase con un método 100% práctico y adaptado a tus tiempos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Background Decorative Ambient Glows -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-center" aria-hidden="true"></div>
+
+  <!-- Header / Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand-logo" aria-label="Inicio">
+        <span class="logo-symbol">
+          <i data-lucide="music-2"></i>
+        </span>
+        <span class="logo-text">Juani <strong>Borghetti</strong></span>
+      </a>
+
+      <nav class="nav-links" id="navMenu">
+        <a href="#sobre-mi" class="nav-link">Sobre Mí</a>
+        <a href="#beneficios" class="nav-link">Beneficios</a>
+        <a href="#metodo" class="nav-link">Cómo Funciona</a>
+        <a href="#faq" class="nav-link">Preguntas</a>
+        <a href="https://wa.me/541140997078?text=Hola%20Juani!%20Quiero%20consultar%20por%20las%20clases%20de%20guitarra" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary nav-cta">
+          <i data-lucide="message-circle"></i>
+          <span>Escribime</span>
+        </a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (Original Aesthetic, Text & Photo) -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text-col">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span>Clases 100% Personalizadas &bull; Principiantes de todas las edades</span>
+          </div>
+
+          <h1 class="hero-title">
+            Aprende Guitarra <span class="highlight-text">Desde Cero</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Clases uno a uno para principiantes de todas las edades con un método práctico, dinámico y adaptado a tus tiempos. Toca tus canciones favoritas desde las primeras semanas.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/541140997078?text=Hola%20Juani!%20Quiero%20consultar%20por%20las%20clases%20de%20guitarra" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg shadow-glow">
+              <i data-lucide="message-circle"></i>
+              <span>Hablar por WhatsApp</span>
+            </a>
+            <a href="#sobre-mi" class="btn btn-outline btn-lg">
+              <span>Conocé mi historia</span>
+              <i data-lucide="arrow-down"></i>
+            </a>
+          </div>
+
+          <div class="hero-features-ribbon">
+            <div class="ribbon-item">
+              <i data-lucide="check-circle-2"></i>
+              <span>Guitarra Criolla y Acústica</span>
+            </div>
+            <div class="ribbon-item">
+              <i data-lucide="check-circle-2"></i>
+              <span>Material en PDF incluido</span>
+            </div>
+            <div class="ribbon-item">
+              <i data-lucide="check-circle-2"></i>
+              <span>Horarios Flexibles</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual-col">
+          <div class="visual-card-wrapper">
+            <div class="visual-card">
+              <div class="image-overlay"></div>
+              <img 
+                src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=85" 
+                alt="Guitarra acústica en un ambiente cálido y musical" 
+                class="hero-img" 
+                loading="eager"
+              />
+              <div class="floating-tag tag-top">
+                <i data-lucide="sparkles"></i>
+                <div>
+                  <strong>7+ años de experiencia</strong>
+                  <span>Guitarra & Piano</span>
+                </div>
+              </div>
+              <div class="floating-tag tag-bottom">
+                <i data-lucide="compass"></i>
+                <div>
+                  <strong>Meta: Piloto Privado</strong>
+                  <span>Cada clase impulsa un sueño</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ SECTION (REAL PHOTO OF JUANI PLAYING GUITAR) -->
+    <section class="section about-section" id="sobre-mi">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-col">
+            <div class="about-card-frame">
+              <img 
+                src="assets/juani-guitarra.jpg" 
+                alt="Juani Borghetti tocando la guitarra con amigos" 
+                class="about-img" 
+                loading="lazy"
+              />
+              <div class="about-stats-card">
+                <div class="stat-box">
+                  <span class="stat-number">19</span>
+                  <span class="stat-label">Años de edad</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-box">
+                  <span class="stat-number">+7</span>
+                  <span class="stat-label">Años con la música</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-box">
+                  <span class="stat-number">1 a 1</span>
+                  <span class="stat-label">Enfoque único</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content-col">
+            <div class="section-tag">
+              <i data-lucide="user-check"></i>
+              <span>El Profesor</span>
+            </div>
+            <h2 class="section-title">¡Hola! Soy Juani Borghetti</h2>
+            
+            <p class="lead-text">
+              Toco la guitarra y el piano desde hace más de 7 años. La música ha sido mi compañera de vida, permitiéndome descubrir que la mejor manera de aprender un instrumento es conectando directamente con las canciones que te emocionan.
+            </p>
+
+            <p class="body-text">
+              Doy clases particulares diseñadas especialmente para personas que arrancan desde cero absoluto o que quieren retomar la guitarra sin frustraciones teóricas eternas.
+            </p>
+
+            <!-- Propuesta de Valor Transparente -->
+            <div class="personal-story-box">
+              <div class="story-icon">
+                <i data-lucide="plane"></i>
+              </div>
+              <div class="story-text">
+                <h3>Un proyecto con propósito real</h3>
+                <p>
+                  Además de la música, mi gran vocación es la aviación. Cada clase que compartimos tiene un objetivo muy claro: <strong>financiar mis horas de vuelo para certificarme como Piloto Privado</strong>. 
+                </p>
+                <p>
+                  Por eso, me comprometo al 100% con tu progreso: tu avance en la guitarra es el motor que me acerca a volar. ¡Transparencia, dedicación y calidez en cada encuentro!
+                </p>
+              </div>
+            </div>
+
+            <div class="about-badges">
+              <span class="chip"><i data-lucide="heart"></i> Paciencia y buen trato</span>
+              <span class="chip"><i data-lucide="sliders"></i> Ritmo personalizado</span>
+              <span class="chip"><i data-lucide="target"></i> Objetivos claros</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS Y BENEFICIOS SECTION -->
+    <section class="section benefits-section" id="beneficios">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">
+            <i data-lucide="award"></i>
+            <span>¿Por Qué Aprender Conmigo?</span>
+          </div>
+          <h2 class="section-title">Todo lo que necesitas para tocar con confianza</h2>
+          <p class="section-subtitle">
+            Un formato pensado para que disfrutes el proceso sin exigencias innecesarias, con acompañamiento constante y foco en tus intereses musicales.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <!-- Beneficio 1 -->
+          <div class="benefit-card">
+            <div class="card-icon-wrapper">
+              <i data-lucide="users"></i>
+            </div>
+            <h3 class="card-title">Clases 1 a 1 Individuales</h3>
+            <p class="card-desc">
+              Atención 100% individualizada. No son cursos grupales donde te quedas con dudas: cada minuto está dedicado exclusivamente a tu postura, sonido y dudas.
+            </p>
+            <div class="card-footer-pill">Foco total en ti</div>
+          </div>
+
+          <!-- Beneficio 2 -->
+          <div class="benefit-card">
+            <div class="card-icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m19 11-4-4"></path>
+                <path d="m16 8 3.3-3.3a2.1 2.1 0 1 1 3 3L19 11"></path>
+                <path d="M12 8.5 7.5 4 4 7.5l4.5 4.5"></path>
+                <path d="m5 13-3 3a5.5 5.5 0 0 0 8 8l3-3"></path>
+                <path d="m11 11-4 4"></path>
+                <circle cx="12" cy="12" r="1"></circle>
+              </svg>
+            </div>
+            <h3 class="card-title">Guitarra Acústica o Criolla</h3>
+            <p class="card-desc">
+              Adaptamos las técnicas de pulsación, rasgueo y digitación al tipo de instrumento que tengas en casa, ya sea cuerdas de nylon tradicionales o acero.
+            </p>
+            <div class="card-footer-pill">Sin importar el modelo</div>
+          </div>
+
+          <!-- Beneficio 3 -->
+          <div class="benefit-card">
+            <div class="card-icon-wrapper">
+              <i data-lucide="activity"></i>
+            </div>
+            <h3 class="card-title">Equilibrio Práctico y Teórico</h3>
+            <p class="card-desc">
+              Aprende canciones reales desde las primeras lecciones. Incorporamos la teoría esencial aplicada (acordes, escalas y ritmos) directamente sobre la música que te gusta.
+            </p>
+            <div class="card-footer-pill">Tocá desde el día 1</div>
+          </div>
+
+          <!-- Beneficio 4 -->
+          <div class="benefit-card">
+            <div class="card-icon-wrapper">
+              <i data-lucide="flame"></i>
+            </div>
+            <h3 class="card-title">Estilos Variados y Ritmos Folclóricos</h3>
+            <p class="card-desc">
+              Exploramos desde rasgueos tradicionales de nuestro folklore (chacareras, zambas) hasta clásicos de rock nacional, pop, baladas o los temas que vos elijas.
+            </p>
+            <div class="card-footer-pill">Tu repertorio preferido</div>
+          </div>
+
+          <!-- Beneficio 5 -->
+          <div class="benefit-card">
+            <div class="card-icon-wrapper">
+              <i data-lucide="file-text"></i>
+            </div>
+            <h3 class="card-title">Material Exclusivo en PDF</h3>
+            <p class="card-desc">
+              Te llevas guías digitales con diagramas de acordes claros, tablaturas sencillas y rutinas de práctica paso a paso para ejercitar en tu casa cuando quieras.
+            </p>
+            <div class="card-footer-pill">Siempre a mano</div>
+          </div>
+
+          <!-- Beneficio 6 -->
+          <div class="benefit-card">
+            <div class="card-icon-wrapper">
+              <i data-lucide="calendar"></i>
+            </div>
+            <h3 class="card-title">Horarios y Modalidad Flexibles</h3>
+            <p class="card-desc">
+              Entendemos tus compromisos de estudio o trabajo. Coordinamos días y horarios acordes a tu disponibilidad semanal, con seguimiento personalizado.
+            </p>
+            <div class="card-footer-pill">A tu propio ritmo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA / MÉTODO PASO A PASO -->
+    <section class="section method-section" id="metodo">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag">
+            <i data-lucide="map-pin"></i>
+            <span>Paso a Paso</span>
+          </div>
+          <h2 class="section-title">Empezar a tocar es muy simple</h2>
+          <p class="section-subtitle">
+            Sin formularios complicados. En 3 pasos ya estamos tocando tu primera melodía.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-icon">
+              <i data-lucide="message-square"></i>
+            </div>
+            <h3>Escribime por WhatsApp</h3>
+            <p>Me contás si tenés instrumento, qué música te apasiona y qué horarios te quedan cómodos.</p>
+          </div>
+
+          <div class="step-arrow" aria-hidden="true">
+            <i data-lucide="chevron-right"></i>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-icon">
+              <i data-lucide="calendar"></i>
+            </div>
+            <h3>Coordinamos tu Clase</h3>
+            <p>Elegimos el día y horario que mejor encaje en tu rutina, sin presiones ni ataduras.</p>
+          </div>
+
+          <div class="step-arrow" aria-hidden="true">
+            <i data-lucide="chevron-right"></i>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-icon">
+              <i data-lucide="music"></i>
+            </div>
+            <h3>Tu Primera Lección</h3>
+            <p>Conocés las cuerdas, tus primeros acordes y te llevás tu material en PDF para seguir divirtiéndote.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREGUNTAS FRECUENTES (FAQ) -->
+    <section class="section faq-section" id="faq">
+      <div class="container faq-container">
+        <div class="section-header text-center">
+          <div class="section-tag">
+            <i data-lucide="help-circle"></i>
+            <span>Dudas Habituales</span>
+          </div>
+          <h2 class="section-title">Preguntas Frecuentes</h2>
+          <p class="section-subtitle">
+            ¿Nunca agarraste una guitarra? Tranquilo/a, casi todos mis alumnos arrancan exactamente en el mismo punto.
+          </p>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>¿Necesito saber música o solfeo para empezar?</span>
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                <strong>Para nada.</strong> El método está pensado 100% para principiantes absolutos. Aprendemos mediante diagramas visuales, tablaturas y práctica directa sobre canciones, sin aburridas horas de teoría abstracta.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>¿Qué edad mínima o máxima se necesita?</span>
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Las clases son para <strong>principiantes de todas las edades</strong>: niños, adolescentes, jóvenes y adultos. Nunca es tarde para empezar a regalarte un momento musical para desconectar de la rutina.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>¿Sirve si tengo guitarra criolla o acústica?</span>
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                ¡Exactamente! Trabajo tanto con guitarras con cuerdas de nylon (clásica o criolla) como con cuerdas de metal (acústica). Si todavía no tenés una y querés comprar, escribime y te asesoro con gusto sobre qué buscar.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>¿Cómo recibo el material de práctica?</span>
+              <i data-lucide="chevron-down" class="accordion-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <div class="accordion-content">
+                Al finalizar cada lección o semana te envío archivos <strong>PDF prolijos</strong> con el cifrado de las canciones, ejercicios de digitación y notas de repaso para que no te olvides de nada al practicar solo/a.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LLAMADO A LA ACCIÓN FINAL (CTA) -->
+    <section class="section cta-section" id="contacto">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-decorative-circle circle-1"></div>
+          <div class="cta-decorative-circle circle-2"></div>
+          
+          <div class="cta-content">
+            <span class="cta-badge">
+              <i data-lucide="zap"></i> ¡Comenzá esta semana!
+            </span>
+            
+            <h2 class="cta-title">
+              "Escribime para que exploremos esta pasión juntos"
+            </h2>
+            
+            <p class="cta-desc">
+              Vení a descubrir lo fácil y reconfortante que es tocar tus primeras canciones. Te respondo a la brevedad para coordinar tu horario ideal.
+            </p>
+
+            <div class="cta-contact-box">
+              <div class="phone-display">
+                <i data-lucide="phone-call"></i>
+                <div>
+                  <span class="phone-label">WhatsApp directo:</span>
+                  <strong class="phone-number">+54 11 4099-7078</strong>
+                </div>
+              </div>
+
+              <a 
+                href="https://wa.me/541140997078?text=Hola%20Juani!%20Quiero%20consultar%20por%20las%20clases%20de%20guitarra" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="btn btn-primary btn-cta-main"
+              >
+                <i data-lucide="message-circle"></i>
+                <span>Contactar por WhatsApp para consultar horarios</span>
+              </a>
+            </div>
+
+            <p class="cta-note">
+              <i data-lucide="clock"></i> Respuesta habitual en menos de 2 horas &bull; Sin compromiso de inscripción
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <span class="logo-symbol">
+            <i data-lucide="music-2"></i>
+          </span>
+          <span class="logo-text">Juani <strong>Borghetti</strong></span>
+        </div>
+        <p class="footer-tagline">
+          Clases de guitarra personalizadas desde cero. Un camino musical impulsando el sueño de volar.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <span class="footer-title">Navegación</span>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#metodo">Cómo Funciona</a>
+        <a href="#faq">Preguntas</a>
+      </div>
+
+      <div class="footer-contact">
+        <span class="footer-title">Contacto Directo</span>
+        <a href="https://wa.me/541140997078?text=Hola%20Juani!%20Quiero%20consultar%20por%20las%20clases%20de%20guitarra" target="_blank" rel="noopener noreferrer" class="contact-pill">
+          <i data-lucide="phone"></i>
+          <span>+54 11 4099-7078</span>
+        </a>
+        <span class="location-tag">
+          <i data-lucide="map-pin"></i> Buenos Aires, Argentina
+        </span>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Juani Borghetti &bull; Clases de Guitarra. Todos los derechos reservados.</p>
+      <p class="made-with">Diseñado para conectar con la música y el aprendizaje real.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP CTA -->
+  <aside class="floating-whatsapp" id="floatingWhatsapp" aria-label="Contacto rápido por WhatsApp">
+    <div class="whatsapp-tooltip">
+      <span>¡Consultá por tus horarios!</span>
+    </div>
+    <a 
+      href="https://wa.me/541140997078?text=Hola%20Juani!%20Quiero%20consultar%20por%20las%20clases%20de%20guitarra" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="whatsapp-btn"
+      aria-label="Abrir chat de WhatsApp con Juani"
+    >
+      <i data-lucide="message-circle"></i>
+    </a>
+  </aside>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
